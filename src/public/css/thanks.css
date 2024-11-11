@@ -1,0 +1,22 @@
+.message{
+    text-align: center;
+    color: #8B7969;
+    margin-top: 100px;
+}
+.message__button{
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    color: #FFF;
+    background-color: #8B7969;
+    border: none;
+    text-align: center;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.home__text{
+    text-decoration: none;
+}

@@ -1,0 +1,106 @@
+.header {
+    width: 1512px;
+    height: 100px;
+    border: 1px solid #E0DFDE;
+    font-family: Inika;
+}
+
+.header__logo {
+    color: #8B7969;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.required::after {
+    content:"※";
+    color: red;
+    margin-left: 4px;
+    font-size: 1em;
+}
+
+.contact {
+    width: 1512px;
+}
+
+.contact__header {
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: #8B7969;
+}
+
+.form {
+    padding: 10px 350px;
+    color: #8B7969;
+}
+
+
+.contact__form--group {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.contact__form--item {
+    width: 60%;
+    display: flex;
+}
+
+.contact__form--select {
+    width: 100%;
+}
+
+.contact__form--list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact__form--name {
+    width: 45%;
+    background-color: #F4F4F4;
+    border: none;
+    padding: 5px 10px;
+}
+.contact__form--tel {
+    width: 40%;
+    background-color: #F4F4F4;
+    border: none;
+    text-align: center;
+}
+
+.contact__form--detail {
+    width: 100%;
+    background-color: #F4F4F4;
+    border: none;
+    padding: 5px 10px;
+}
+
+.contact__form--select{
+    width: 50%;
+    background-color: #F4F4F4;
+    border: none;
+    padding: 5px 10px;
+}
+
+.contact__button {
+    text-align: center;
+    padding: 10px;
+}
+
+.contact__form--button {
+    background-color: #8B7969;
+    color: #FFF;
+    border: none;
+    width: 20%;
+    height: 30px;
+    cursor: pointer;
+}
+
+.form__error {
+    color: red;
+}
